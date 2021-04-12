@@ -13,9 +13,9 @@ const ListNode = require('../extensions/list-node');
 
 class Queue {
   constructor() {
+    // this.queue = new ListNode()
     this.data = [];
     this.next = 0;
-    // this.scale;
   }
 
   get size() {
